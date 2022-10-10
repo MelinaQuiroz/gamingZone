@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  height: 75px;
+  background-color: rgb(49, 46, 46);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  color: brown;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+}
+
+.nav-link {
+  color: rgb(163, 155, 155);
+  font-size: 23px;
+  padding: 10px;
+  transition: .2s ease-in-out;
+}
+
+
+.nav-link:hover {
+  color: brown;
+}
+.carousel-inner {
+  max-height: 500px;
+}
+.carousel-item .img {
+  max-height: 500px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_davinci {
+  width: 200px;
+}
