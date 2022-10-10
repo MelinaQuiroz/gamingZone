@@ -32,12 +32,7 @@ nav {
 .nav-link:hover {
   color: brown;
 }
-.carousel-inner {
-  max-height: 500px;
-}
-.carousel-item .img {
-  max-height: 500px;
-}
+
 
 footer {
   position: absolute;
@@ -54,3 +49,5 @@ footer {
 .logo_davinci {
   width: 200px;
 }
+
+
